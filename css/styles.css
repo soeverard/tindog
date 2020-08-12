@@ -199,6 +199,9 @@ h6 {
 
 /* Footer */
 
+#footer .container-fluid {
+  padding: 7% 25%;
+}
 .contact-title {
   margin-bottom: 24px;
 }
@@ -210,8 +213,17 @@ h6 {
   margin: 20px;
 }
 .social-icon:hover {
-  color: #353535;
+  color: #ff4c68;
 }
 .copyright {
   font-size: 0.7rem;
+}
+.saskia-link {
+  color: #8f8f8f;
+}
+.saskia-link:hover {
+  color: #ff4c68;
+}
+.copyright .saskia-link {
+  font-weight: bold;
 }
